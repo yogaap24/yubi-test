@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Checking database connection..."
-while ! mysqladmin ping -h"db" -u"crm_user" -p"crm_password" --silent; do
+while ! mysqladmin ping -h"db" -u"yubi_user" -p"yubi_password" --silent; do
     echo "Waiting for database connection..."
     sleep 2
 done
