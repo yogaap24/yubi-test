@@ -70,10 +70,10 @@ const submitForm = async () => {
 
   try {
     const result = await createSalesOrder(payload);
-    console.log('Sukses! Order berhasil dibuat:', result);
+    alert('Sukses! Order berhasil dibuat:', result);
     Object.assign(form, getNewSalesOrder());
   } catch (error) {
-    console.error('Gagal menyimpan data:', error);
+    alert('Gagal menyimpan data');
   }
 };
 
