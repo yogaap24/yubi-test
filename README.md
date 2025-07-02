@@ -30,8 +30,8 @@ Ensure you have Docker and Docker Compose installed on your machine.
 3. **Done! Application is Ready**
     Wait a few moments for all containers to stabilize.
     * **Frontend Application (Vue.js)** is accessible at: `http://localhost:3000`
-    * **Backend API (Laravel)** is accessible at: `http://localhost:8000`
-    * **Example API Endpoint**: `http://localhost:8000/api/sales-orders`
+    * **Backend API (Laravel)** is accessible at: `http://localhost:8080`
+    * **Example API Endpoint**: `http://localhost:8080/api/sales-orders`
 
 ## Technical Approach & Assumptions
 
